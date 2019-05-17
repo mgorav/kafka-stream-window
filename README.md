@@ -1,6 +1,6 @@
 ## What is this app?
 
-Spring Cloud Stream Kafka demonstrating the windowing concept.
+Spring Cloud Stream Kafka demonstrating the windowing concept: rolling & hopping.
 
 ## Running the app:
 
