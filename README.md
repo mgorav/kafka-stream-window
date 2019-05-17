@@ -20,7 +20,7 @@ The below command will track following shipment ID’s
  4. 994
  5. 996
  
- every 30 seconds with the counts from the last minute. In other words, every 40 seconds a new 1 minute window is started.
+ every 40 seconds with the counts from the last minute. In other words, every 40 seconds a new 1 minute window is started.
 
 ````commandline
  java -jar target/kafka-stream-window-0.0.1-SNAPSHOT.jar --app.shipment.tracker.shipmentIds=991,992,993,994,995 --spring.cloud.stream.kafka.streams.timeWindow.length=60000 --spring.cloud.stream.kafka.streams.timeWindow.advanceBy=40000
